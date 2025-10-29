@@ -28,13 +28,25 @@
 4. **[PPO算法](note/4.PPO算法.md)**
    - PPO-Clip与PPO-Penalty
 
-5. **[DQN.1](note/5.DQN.md)**
+5. **[DQN介绍](note/5.DQN.md)**
    - 状态价值函数
    - 动作价值函数
    - 目标网络
    - 探索
    - 经验回放
-
+6. **[DQN进阶技巧](note/6.DQN.2.md)**
+   - DDQN
+   - dueling DQN
+   - PER
+   - TD(N)
+   - 噪声网络
+   - 分布式Q函数
+   - 彩虹
+7. **[连续动作DQN](note/7.DQN.3.md)**
+   - 对动作采样
+   - 梯度上升
+   - 设计网络架构
+   
 ### 实践篇
 
 - **[Q-Learning实现](code/QLearning.ipynb)** - 基于Gymnasium的Q-Learning算法完整实现
