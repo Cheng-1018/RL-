@@ -28,6 +28,12 @@
 4. **[PPO算法](note/4.PPO算法.md)**
    - PPO-Clip与PPO-Penalty
 
+5. **[DQN.1](note/5.DQN.md)**
+   - 状态价值函数
+   - 动作价值函数
+   - 目标网络
+   - 探索
+   - 经验回放
 
 ### 实践篇
 
