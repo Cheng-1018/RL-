@@ -1,3 +1,7 @@
 matplotlib
 seaborn
 gymnasium
+torch
+torchvision
+numpy
+tqdm

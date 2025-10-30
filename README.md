@@ -48,8 +48,10 @@
    - 设计网络架构
    
 ### 实践篇
-
+- **[gymnasium 基础](code/gymlearn1.py)** 
+- **[pytorch基础](code/pytorchlearn.py)** 
 - **[Q-Learning实现](code/QLearning.ipynb)** - 基于Gymnasium的Q-Learning算法完整实现
+- **[DDQN实现](code/DDQN.ipynb)** - 基于Gymnasium的DDQN算法完整实现
 - **[代码示例](code/)** - 各种强化学习算法的Python实现
 
 ## 🛠️ 环境配置
@@ -63,8 +65,3 @@ cd RL-
 pip install -r requirements.txt
 ```
 
-### 依赖包
-- `gymnasium` - 强化学习环境
-- `matplotlib` - 数据可视化
-- `seaborn` - 统计图形
-- `numpy` - 数值计算
