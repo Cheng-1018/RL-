@@ -26,7 +26,9 @@
 
 
 4. **[PPO算法](note/4.PPO算法.md)**
-   - PPO-Clip与PPO-Penalty
+   - PPO-Clip
+   - PPO-Penalty
+   - TRPO
 
 5. **[DQN介绍](note/5.DQN.md)**
    - 状态价值函数
@@ -34,6 +36,7 @@
    - 目标网络
    - 探索
    - 经验回放
+
 6. **[DQN进阶技巧](note/6.DQN.2.md)**
    - DDQN
    - dueling DQN
@@ -42,17 +45,36 @@
    - 噪声网络
    - 分布式Q函数
    - 彩虹
+
 7. **[连续动作DQN](note/7.DQN.3.md)**
    - 对动作采样
    - 梯度上升
    - 设计网络架构
-   
+
+8. **[演员-评论员](note/8.演员评论员算法.md)**
+   - 优势演员-评论员
+   - 异步演员-评论员
+   - 路径衍生策略梯度
+
+9. **[稀疏奖励与模仿学习](note/9.稀疏奖励与模仿学习.md)**
+   - 课程学习
+   - 逆向课程学习
+   - 分层强化学习
+   - 行为克隆
+   - 逆强化学习
+
+10. **[DDPG](note/10.深度确定性策略.md)**
+   - DDPG
+   - Twin Delayed DDPG
+
 ### 实践篇
 - **[gymnasium 基础](code/gymlearn1.py)** 
 - **[pytorch基础](code/pytorchlearn.py)** 
-- **[Q-Learning实现](code/QLearning.ipynb)** - 基于Gymnasium的Q-Learning算法完整实现
-- **[DDQN实现](code/DDQN.ipynb)** - 基于Gymnasium的DDQN算法完整实现
+- **[Q-Learning实现](code/QLearning.ipynb)** - Q-Learning算法完整实现
+- **[DDQN实现](code/DDQN.ipynb)** - DDQN算法完整实现
+- **[DDPG](code/DDPG.ipynb)**- DDPG算法完整实现
 - **[代码示例](code/)** - 各种强化学习算法的Python实现
+
 
 ## 🛠️ 环境配置
 
@@ -65,3 +87,6 @@ cd RL-
 pip install -r requirements.txt
 ```
 
+## 学习资源
+-  **[openai-RL](https://spinningup.openai.com/en/latest/)**：openai的一个强化学习库，并介绍了一些算法如PPO,TRPO,DDPG,-TDDPG
+-  **[easy-rl](https://github.com/datawhalechina/easy-rl)** ：本书主要参考
