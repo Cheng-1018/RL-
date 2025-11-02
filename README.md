@@ -1,3 +1,12 @@
+<script type="text/javascript" async
+  src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.7/MathJax.js?config=TeX-MML-AM_CHTML">
+</script>
+<script type="text/x-mathjax-config">
+MathJax.Hub.Config({
+  tex2jax: {inlineMath: [['$','$'], ['\\(','\\)']]}
+});
+</script>
+
 # 强化学习（Reinforcement Learning）学习笔记
 
 本仓库包含强化学习的学习笔记和代码实现，涵盖从基础理论到高级算法的完整学习路径。
