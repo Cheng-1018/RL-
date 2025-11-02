@@ -39,7 +39,7 @@ MathJax.Hub.Config({
    - PPO-Penalty
    - TRPO
 
-5. **[DQN介绍](note/5.DQN.md)**
+5. **[DQN介绍](note/5.DQN.1.md)**
    - 状态价值函数
    - 动作价值函数
    - 目标网络
