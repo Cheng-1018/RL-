@@ -9,7 +9,7 @@ MathJax.Hub.Config({
 
 # 强化学习（Reinforcement Learning）学习笔记
 
-本仓库包含强化学习的学习笔记和代码实现，涵盖从基础理论到高级算法的完整学习路径。
+本仓库包含强化学习的学习笔记和代码实现，涵盖从基础理论到高级算法的完整学习路径。[仓库地址](https://github.com/Cheng-1018/RL-?tab=readme-ov-file)
 
 ## 📚 目录
 
